@@ -74,6 +74,12 @@ const Footer = () => (
           alt="Gatsby Logo"
         />
       </Flex>
+      <Text>
+        Copyright © 2019{' '}
+        <a style={{ color: 'white' }} href="_blank">
+          Degryse Mehdi
+        </a>
+      </Text>
     </Fade>
   </FooterContainer>
 );
