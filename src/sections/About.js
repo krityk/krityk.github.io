@@ -42,7 +42,7 @@ const ProfilePicture = styled(Image)`
 `;
 
 const About = () => (
-  <Section.Container id="about" Background={Background}>
+  <Section.Container id="À propos" Background={Background}>
     <Section.Header name="À propos de moi" icon="🙋‍♂️" label="person" />
     <StaticQuery
       query={graphql`
