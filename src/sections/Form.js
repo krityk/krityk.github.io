@@ -41,7 +41,7 @@ const Form = () => (
     <Flex justifyContent="center" alignItems="center" flexWrap="wrap">
       <Fade bottom>
         <div>
-          <h3> Vous avez des questions, un projet ? </h3>
+          <h3> Vous avez des questions, un projet ? n'hesitez pas lol </h3>
 
           <form name="contact" method="POST" data-netlify="true">
             <p>
