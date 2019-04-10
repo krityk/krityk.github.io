@@ -44,9 +44,10 @@ const Contact = () => (
     <Flex justifyContent="center" alignItems="center" flexWrap="wrap">
       <Fade bottom>
         <div>
-          <h3> Vous avez des questions, un projet ?  </h3>
+          <h3> Vous avez des questions, un projet ?
+            <FontAwesome name={faHome} />  </h3>
           <div>
-    <FontAwesomeIcon icon={faHome} />
+
   </div>
 
           <form name="contact" method="POST" data-netlify="true">
