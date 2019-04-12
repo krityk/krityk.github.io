@@ -7,7 +7,11 @@ import Fade from 'react-reveal/Fade';
 import Section from '../components/Section';
 import Triangle from '../components/Triangle';
 import markdownRenderer from '../components/MarkdownRenderer';
-
+import SocialLink from '../components/SocialLink';
+import { Link } from 'rebass';
+import { Tooltip } from 'react-tippy';
+import FontAwesome from 'react-fontawesome';
+import styled from 'styled-components';
 
 
 
@@ -37,6 +41,17 @@ const Background = () => (
   </div>
 );
 
+const IconLink = styled(Link)`
+  transition: color 0.5s;
+  color: ${props => props.theme.colors.primary};
+
+  &:hover {
+    color: ${props => props.theme.colors.primaryLight};
+  }
+`;
+
+
+
 const Contact = () => (
   <Section.Container id="Me contacter" Background={Background}>
     <Section.Header name="Me contacter" />
@@ -45,40 +60,9 @@ const Contact = () => (
       <Fade bottom>
         <div>
           <h3> Vous avez des questions, un projet ?</h3>
-          <a class="SocialLink__IconLink-sc-13bp2vw-0 dFGqYq">
-          <span aria-hidden="true" class="fa fa-phone">0761649406</span></a>
-
-
-          <div>
-
-  </div>
-
-          <form name="contact" method="POST" data-netlify="true" action="../src/sections/FormSend.js" >
-          <Flex>
-          <Box
-    p={3}
-    width={1/2}
-    color='magenta'
-    bg='black'>
-    <p>Nom:</p>
-    <p>Email:</p>
-    <p>Message:</p>
-    </Box>
-    <Box
-    p={3}
-    width={1/2}
-    color='magenta'
-    bg='black'>
-    <input type="text" name="name" />
-    <input type="email" name="email" />
-    <textarea name="message" />
-    </Box>
-    </Flex>
-
-
-              <Button variant='primary' type="submit">Send</Button>
-
-          </form>
+          <IconLink href={url} target="_blank">
+            <FontAwesome name='fa fa-phone' />
+          </IconLink>
         </div>
       </Fade>
 
