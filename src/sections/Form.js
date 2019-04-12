@@ -52,7 +52,7 @@ const Contact = () => (
 
   </div>
 
-          <form name="contact" method="POST" data-netlify="true" action="../src/sections/Contact.js" >
+          <form name="contact" method="POST" data-netlify="true" action="../src/sections/FormSend.js" >
           <Flex>
           <Box
     p={3}
