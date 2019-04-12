@@ -46,7 +46,7 @@ const Contact = () => (
         <div>
           <h3> Vous avez des questions, un projet ?</h3>
           <span aria-hidden="true" class="fa fa-phone">0761649406</span>
-          
+
 
           <div>
 
