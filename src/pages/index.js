@@ -6,7 +6,7 @@ import About from '../sections/About';
 import Writing from '../sections/Writing';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Form from '../sections/Form.js';
+import Contact from '../sections/Form.js';
 const IndexPage = () => (
   <Layout>
     <Header />
