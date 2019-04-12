@@ -44,7 +44,9 @@ const Contact = () => (
     <Flex justifyContent="center" alignItems="center" flexWrap="wrap">
       <Fade bottom>
         <div>
-          <h3> Vous avez des questions, un projet ?
+          <h3> Vous avez des questions, un projet ?</h3>
+          <span aria-hidden="true" class="fa fa-phone">0761649406</span>
+          
 
           <div>
 
