@@ -50,7 +50,7 @@ const Contact = () => (
 
   </div>
 
-          <form name="contact" method="POST" data-netlify="true">
+          <form name="contact" method="POST" data-netlify="true" action="/src/pages/FormSend.js">
             <p>
               <label>
                 Nom: <input type="text" name="name" />
