@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Image, Flex } from 'rebass';
+import { Box, Image, Flex, Button } from 'rebass';
 import { StaticQuery, graphql } from 'gatsby';
 import styled from 'styled-components';
 import ReactMarkdown from 'react-markdown';
@@ -51,25 +51,30 @@ const Contact = () => (
   </div>
 
           <form name="contact" method="POST" data-netlify="true" action="../src/sections/Contact.js" >
-            <p>
-              <label>
-                Nom: <input type="text" name="name" />
-              </label>
-            </p>
-            <p>
-              <label>
-                Adresse Mail: <input type="email" name="email" />
-              </label>
-            </p>
+          <Flex>
+          <Box
+    p={3}
+    width={1/2}
+    color='magenta'
+    bg='black'>
+    <p>Nom:</p>
+    <p>Email:</p>
+    <p>Message:</p>
+    </Box>
+    <Box
+    p={3}
+    width={1/2}
+    color='magenta'
+    bg='black'>
+    <input type="text" name="name" />
+    <input type="email" name="email" />
+    <textarea name="message" />
+    </Box>
+    </Flex>
 
-            <p>
-              <label>
-                Message: <textarea name="message" />
-              </label>
-            </p>
-            <p>
-              <button type="submit">Send</button>
-            </p>
+
+              <Button variant='primary' type="submit">Send</Button>
+
           </form>
         </div>
       </Fade>
