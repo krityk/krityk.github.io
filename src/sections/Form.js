@@ -7,8 +7,8 @@ import Fade from 'react-reveal/Fade';
 import Section from '../components/Section';
 import Triangle from '../components/Triangle';
 import markdownRenderer from '../components/MarkdownRenderer';
-import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+
 
 
 const Background = () => (
@@ -45,7 +45,7 @@ const Contact = () => (
       <Fade bottom>
         <div>
           <h3> Vous avez des questions, un projet ?
-            <FontAwesome name={faHome} />  </h3>
+
           <div>
 
   </div>
