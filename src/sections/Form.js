@@ -45,7 +45,8 @@ const Contact = () => (
       <Fade bottom>
         <div>
           <h3> Vous avez des questions, un projet ?</h3>
-          <span aria-hidden="true" class="fa fa-phone">0761649406</span>
+          <a class="SocialLink__IconLink-sc-13bp2vw-0 dFGqYq">
+          <span aria-hidden="true" class="fa fa-phone">0761649406</span></a>
 
 
           <div>
