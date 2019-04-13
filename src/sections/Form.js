@@ -56,6 +56,7 @@ const Contact = () => (
             >
 
     Vous avez des questions, un projet ? </Text>
+    <div>
           <Card
   fontSize={6}
   fontWeight='bold'
@@ -94,6 +95,7 @@ const Contact = () => (
 
 </Card>
 
+</div>
 
 
 
