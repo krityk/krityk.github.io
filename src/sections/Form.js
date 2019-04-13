@@ -68,7 +68,7 @@ const Contact = () => (
   fontWeight='bold'
   color='rgb(124, 55, 173)'
   fontfamily= 'Cabin'
-  fontSize='48px'
+  fontSize='24px'
       >
 
 <i aria-hidden="true" class="fa fa-phone"></i>0761649406 </Text>
