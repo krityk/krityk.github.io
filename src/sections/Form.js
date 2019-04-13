@@ -50,19 +50,14 @@ const Contact = () => (
         <div>
           <h3> Vous avez des questions, un projet ?</h3>
 
-          <Card
-  fontSize={6}
-  fontWeight='bold'
-  width={[ 1, 1, 1/2 ]}
-  p={5}
-  my={5}
-  bg='#f6f6ff'
-  borderRadius={8}
-  borderColor='rgb(124, 55, 173)'
-  boxShadow='0 2px 16px rgba(0, 0, 0, 0.25)'
->
-   <i aria-hidden="true" class="fa fa-phone"></i>0761649406
-</Card>
+
+   <i aria-hidden="true" class="fa fa-phone"></i>
+   <i class="fa fa-envelope" aria-hidden="true"></i>
+   <i class="fab fa-discord"></i>
+
+
+
+
 
 
 
