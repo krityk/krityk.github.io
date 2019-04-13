@@ -54,7 +54,7 @@ const Contact = () => (
           <Card
   fontSize={6}
   fontWeight='bold'
-  width={[ 1, 1, 1/2 ]}
+  width='75%'
   p={5}
   my={5}
   bg='#f6f6ff'
