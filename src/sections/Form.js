@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Image, Flex, Button, Card } from 'rebass';
+import { Box, Image, Flex, Button, Card,Text } from 'rebass';
 import { StaticQuery, graphql } from 'gatsby';
 import styled from 'styled-components';
 import ReactMarkdown from 'react-markdown';
@@ -64,7 +64,14 @@ const Contact = () => (
 
 
 
-<i aria-hidden="true" class="fa fa-phone"></i>0761649406
+<Text 
+  fontWeight='bold'
+  color='rgb(124, 55, 173)'
+  fontfamily= 'Cabin'
+  fontSize='48px'
+      >
+
+><i aria-hidden="true" class="fa fa-phone"></i>0761649406 </Text>
 <i class="fa fa-envelope" aria-hidden="true"></i>degryse-mehdi@outlook.fr
 <i class="fa fa-skype"></i>
 
