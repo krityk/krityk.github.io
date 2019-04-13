@@ -64,14 +64,14 @@ const Contact = () => (
 
 
 
-<Text 
+<Text
   fontWeight='bold'
   color='rgb(124, 55, 173)'
   fontfamily= 'Cabin'
   fontSize='48px'
       >
 
-><i aria-hidden="true" class="fa fa-phone"></i>0761649406 </Text>
+<i aria-hidden="true" class="fa fa-phone"></i>0761649406 </Text>
 <i class="fa fa-envelope" aria-hidden="true"></i>degryse-mehdi@outlook.fr
 <i class="fa fa-skype"></i>
 
