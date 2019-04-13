@@ -48,10 +48,10 @@ const Contact = () => (
     <Flex justifyContent="center" alignItems="center" flexWrap="wrap">
       <Fade bottom>
         <div>
-          <h3> Vous avez des questions, un projet ?</h3>
+          <h3 style ="color: rgb(124, 55, 173);"> Vous avez des questions, un projet ?</h3>
 
 
-   <span><i aria-hidden="true" class="fa fa-phone" style="font: normal normal normal 14px/1 FontAwesome;
+   <span><i aria-hidden="true" class="fa fa-phone" style="
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;"></i> 0761649406</span>
