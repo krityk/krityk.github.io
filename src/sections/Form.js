@@ -51,12 +51,25 @@ const Contact = () => (
         <div>
           <h3> Vous avez des questions, un projet ?</h3>
 
+          <Card
+  fontSize={6}
+  fontWeight='bold'
+  width={[ 1, 1, 1/2 ]}
+  p={5}
+  my={5}
+  bg='#f6f6ff'
+  borderRadius={8}
+  boxShadow='0 2px 16px rgba(0, 0, 0, 0.25)'
+>
 
-   <span><i aria-hidden="true" class="fa fa-phone"></i> 0761649406</span>
-   <span><i class="fa fa-envelope" aria-hidden="true"></i> Degryse-mehdi@outlook.fr</span>
-  <span><i class="fa fa-skype"></i> Obeh #3605 </span>
 
 
+<i aria-hidden="true" class="fa fa-phone"></i>
+<i class="fa fa-envelope" aria-hidden="true"></i>
+<i class="fa fa-skype"></i>
+
+
+</Card>
 
 
 
