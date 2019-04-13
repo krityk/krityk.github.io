@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Image, Flex, Button } from 'rebass';
+import { Box, Image, Flex, Button, Card } from 'rebass';
 import { StaticQuery, graphql } from 'gatsby';
 import styled from 'styled-components';
 import ReactMarkdown from 'react-markdown';
@@ -7,11 +7,7 @@ import Fade from 'react-reveal/Fade';
 import Section from '../components/Section';
 import Triangle from '../components/Triangle';
 import markdownRenderer from '../components/MarkdownRenderer';
-import SocialLink from '../components/SocialLink';
-import { Link } from 'rebass';
-import { Tooltip } from 'react-tippy';
-import FontAwesome from 'react-fontawesome';
-import styled from 'styled-components';
+
 
 
 
@@ -71,7 +67,7 @@ const Contact = () => (
   borderRadius={8}
   boxShadow='0 2px 16px rgba(0, 0, 0, 0.25)'
 >
-  Card
+   <i aria-hidden="true" class="fa fa-phone"></i>0761649406
 </Card>
 
 
