@@ -64,9 +64,9 @@ const Contact = () => (
 
 
 
-<i aria-hidden="true" class="fa fa-phone"> 0761649406</i>
-<i class="fa fa-envelope" aria-hidden="true">degryse-mehdi@outlook.fr</i>
-<i class="fa fa-skype">live:degryse-mehdi</i> 
+<p><i aria-hidden="true" class="fa fa-phone"></i>0761649406</p>
+<p><i class="fa fa-envelope" aria-hidden="true"></i>degryse-mehdi@outlook.fr</p>
+<i class="fa fa-skype"></i>
 
 
 </Card>
