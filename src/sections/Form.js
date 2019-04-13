@@ -60,9 +60,22 @@ const Contact = () => (
       <Fade bottom>
         <div>
           <h3> Vous avez des questions, un projet ?</h3>
-          <IconLink href={url} target="_blank">
-            <FontAwesome name='fa fa-phone' />
-          </IconLink>
+
+          <Card
+  fontSize={6}
+  fontWeight='bold'
+  width={[ 1, 1, 1/2 ]}
+  p={5}
+  my={5}
+  bg='#f6f6ff'
+  borderRadius={8}
+  boxShadow='0 2px 16px rgba(0, 0, 0, 0.25)'
+>
+  Card
+</Card>
+
+
+
         </div>
       </Fade>
 
