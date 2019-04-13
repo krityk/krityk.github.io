@@ -50,7 +50,7 @@ const Contact = () => (
       <Fade bottom>
         <div>
           <h3> Vous avez des questions, un projet ?</h3>
-
+          </div>
           <Card
   fontSize={6}
   fontWeight='bold'
@@ -76,7 +76,7 @@ const Contact = () => (
 
 
 
-        </div>
+
       </Fade>
 
       <Fade right />
