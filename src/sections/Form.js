@@ -48,9 +48,14 @@ const Contact = () => (
 
     <Flex justifyContent="center" alignItems="center" flexWrap="wrap">
       <Fade bottom>
-        <div>
-          <h3> Vous avez des questions, un projet ?</h3>
-          </div>
+      <Text
+        fontWeight='bold'
+        color='rgb(124, 55, 173)'
+        fontfamily= 'Cabin'
+        fontSize='48px'
+            >
+
+    Vous avez des questions, un projet ? </Text>
           <Card
   fontSize={6}
   fontWeight='bold'
