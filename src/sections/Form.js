@@ -37,14 +37,7 @@ const Background = () => (
   </div>
 );
 
-const IconLink = styled(Link)`
-  transition: color 0.5s;
-  color: ${props => props.theme.colors.primary};
 
-  &:hover {
-    color: ${props => props.theme.colors.primaryLight};
-  }
-`;
 
 
 
@@ -65,6 +58,7 @@ const Contact = () => (
   my={5}
   bg='#f6f6ff'
   borderRadius={8}
+  borderColor='rgb(124, 55, 173)'
   boxShadow='0 2px 16px rgba(0, 0, 0, 0.25)'
 >
    <i aria-hidden="true" class="fa fa-phone"></i>0761649406
