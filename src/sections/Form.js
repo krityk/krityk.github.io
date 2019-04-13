@@ -37,12 +37,7 @@ const Background = () => (
   </div>
 );
 
-const iStyle = {
-  
-    font-size: 'inherit',
-    text-rendering: 'auto',
-    -webkit-font-smoothing: 'antialiased',
-  };
+
 
 
 
@@ -57,7 +52,7 @@ const Contact = () => (
           <h3> Vous avez des questions, un projet ?</h3>
 
 
-   <span><i aria-hidden="true" class="fa fa-phone" style={iStyle}></i> 0761649406</span>
+   <span><i aria-hidden="true" class="fa fa-phone"></i> 0761649406</span>
    <span><i class="fa fa-envelope" aria-hidden="true"></i> Degryse-mehdi@outlook.fr</span>
   <span><i class="fa fa-skype"></i> Obeh #3605 </span>
 
