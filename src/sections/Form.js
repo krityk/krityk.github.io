@@ -38,7 +38,7 @@ const Background = () => (
 );
 
 const iStyle = {
-  font: 'normal normal normal 14px/1 FontAwesome',
+  
     font-size: 'inherit',
     text-rendering: 'auto',
     -webkit-font-smoothing: 'antialiased',
