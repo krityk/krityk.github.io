@@ -37,6 +37,12 @@ const Background = () => (
   </div>
 );
 
+const iStyle = {
+  font: 'normal normal normal 14px/1 FontAwesome',
+    font-size: 'inherit',
+    text-rendering: 'auto',
+    -webkit-font-smoothing: 'antialiased',
+  };
 
 
 
@@ -48,13 +54,10 @@ const Contact = () => (
     <Flex justifyContent="center" alignItems="center" flexWrap="wrap">
       <Fade bottom>
         <div>
-          <h3 style ="color: rgb(124, 55, 173);"> Vous avez des questions, un projet ?</h3>
+          <h3> Vous avez des questions, un projet ?</h3>
 
 
-   <span><i aria-hidden="true" class="fa fa-phone" style="
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;"></i> 0761649406</span>
+   <span><i aria-hidden="true" class="fa fa-phone" style={iStyle}></i> 0761649406</span>
    <span><i class="fa fa-envelope" aria-hidden="true"></i> Degryse-mehdi@outlook.fr</span>
   <span><i class="fa fa-skype"></i> Obeh #3605 </span>
 
