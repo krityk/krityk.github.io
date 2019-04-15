@@ -106,7 +106,7 @@ const Contact = () => (
 
 
 
-      </Fade>
+      
 
       <Fade right />
 
