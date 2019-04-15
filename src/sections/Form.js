@@ -46,7 +46,7 @@ const Contact = () => (
   <Section.Container id="Me contacter" Background={Background}>
     <Section.Header name="Me contacter" />
 
-    <Flex justifyContent="center" alignItems="center" flexWrap="wrap">
+    <Flex justifyContent="center" alignItems="center" >
       <Fade bottom>
       <Text
         fontWeight='bold'
