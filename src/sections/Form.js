@@ -78,7 +78,8 @@ const Contact = () => (
   fontWeight='bold'
   color='rgb(124, 55, 173)'
   fontfamily= 'Cabin'
-  fontSize='24px'
+  fontSize='19px'
+  lineHeight='2'
       >
 
 <i aria-hidden="true" class="fa fa-phone"></i> 0761649406 </Text>
@@ -86,14 +87,16 @@ const Contact = () => (
   fontWeight='bold'
   color='rgb(124, 55, 173)'
   fontfamily= 'Cabin'
-  fontSize='24px'
+  fontSize='19px'
+  lineHeight='2'
       >
 <i class="fa fa-envelope" aria-hidden="true"></i> degryse-mehdi@outlook.fr </Text>
 <Text
   fontWeight='bold'
   color='rgb(124, 55, 173)'
   fontfamily= 'Cabin'
-  fontSize='24px'
+  fontSize='19px'
+  lineHeight='2'
       ><i class="fa fa-skype"></i> live:degryse-mehdi</Text>
 
 
@@ -106,7 +109,7 @@ const Contact = () => (
 
 
 
-      
+
 
       <Fade right />
 
