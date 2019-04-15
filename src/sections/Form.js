@@ -56,8 +56,10 @@ const Contact = () => (
             >
 
     Vous avez des questions, un projet ? </Text>
+    </Fade>
     </Flex>
     <Flex justifyContent="center" alignItems="center" flexWrap="wrap">
+    <Fade bottom>
 
           <Card
   fontSize={6}
@@ -96,7 +98,7 @@ const Contact = () => (
 
 
 </Card>
-
+</Fade>
 </Flex>
 
 
