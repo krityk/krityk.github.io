@@ -46,7 +46,7 @@ const Contact = () => (
   <Section.Container id="Me contacter" Background={Background}>
     <Section.Header name="Me contacter" />
 
-    <Flex justifyContent="center" alignItems="center" >
+    <Flex justifyContent="center" alignItems="center" flexWrap="wrap">
       <Fade bottom>
       <Text
         fontWeight='bold'
@@ -56,7 +56,9 @@ const Contact = () => (
             >
 
     Vous avez des questions, un projet ? </Text>
-    <div>
+    </Flex>
+    <Flex justifyContent="center" alignItems="center" flexWrap="wrap">
+
           <Card
   fontSize={6}
   fontWeight='bold'
@@ -95,7 +97,7 @@ const Contact = () => (
 
 </Card>
 
-</div>
+</Flex>
 
 
 
@@ -105,7 +107,7 @@ const Contact = () => (
       </Fade>
 
       <Fade right />
-    </Flex>
+
   </Section.Container>
 );
 
